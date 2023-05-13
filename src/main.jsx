@@ -12,7 +12,7 @@ import Error from './Components/404 Page/Error';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <App></App>,
   },
   {
     path: "*",
